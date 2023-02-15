@@ -2489,11 +2489,6 @@
   "resolved" "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz"
   "version" "1.2.2"
 
-"clamp@^1.0.1":
-  "integrity" "sha512-kgMuFyE78OC6Dyu3Dy7vcx4uy97EIbVxJB/B0eJ3bUNAkwdNcxYzgKltnyADiYwsR7SEqkkUPsEUT//OVS6XMA=="
-  "resolved" "https://registry.npmjs.org/clamp/-/clamp-1.0.1.tgz"
-  "version" "1.0.1"
-
 "class-utils@^0.3.5":
   "integrity" "sha512-qOhPa/Fj7s6TY8H8esGu5QNpMMQxz79h+urzrNYN6mn+9BnxlDGf5QZ+XeCDsxSjPqsSR56XOZOJmpeurnLMeg=="
   "resolved" "https://registry.npmjs.org/class-utils/-/class-utils-0.3.6.tgz"
@@ -2653,13 +2648,6 @@
     "on-headers" "~1.0.2"
     "safe-buffer" "5.1.2"
     "vary" "~1.1.2"
-
-"concat-color-matrices@^1.0.0":
-  "integrity" "sha512-K0IMtl4m9LcHg4vVFb40Txmie/GwCJBkquGSn6wtA9yIcszzFZgGc6co4sSnjFdqeJAv+q2LrCHMUSb2GHAChA=="
-  "resolved" "https://registry.npmjs.org/concat-color-matrices/-/concat-color-matrices-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "invariant" "^2.2.4"
 
 "concat-map@0.0.1":
   "integrity" "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg=="
@@ -5860,15 +5848,6 @@
     "jscodeshift" "^0.13.1"
     "nullthrows" "^1.1.1"
 
-"react-native-color-matrix-image-filters@^6.0.3":
-  "integrity" "sha512-yYwPbfhZzcRWLhsmkbtKBytlr/6CsLeMkMU+ds+xUGlHQI//raED4BzjMmOHKJlkciBtG39NyIx8D5lXnSIW+w=="
-  "resolved" "https://registry.npmjs.org/react-native-color-matrix-image-filters/-/react-native-color-matrix-image-filters-6.0.3.tgz"
-  "version" "6.0.3"
-  dependencies:
-    "concat-color-matrices" "^1.0.0"
-    "rn-color-matrices" "^4.1.0"
-    "ts-tiny-invariant" "^2.0.4"
-
 "react-native-gradle-plugin@^0.71.14":
   "integrity" "sha512-nnLawTZEPPRAKq92UqDkzoGgCBl9aa9zAihFHMwmwzn4WRVdK4O6Cd4XYiyoNOiQzx3Hh9k5WOckHE80C92ivQ=="
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.14.tgz"
@@ -6162,13 +6141,6 @@
   "version" "2.6.3"
   dependencies:
     "glob" "^7.1.3"
-
-"rn-color-matrices@^4.1.0":
-  "integrity" "sha512-a8++z3Zi4GhA0oWwKS3etdrVuVQ2q/ByTMh6lMxo+vaSv3SRSSg5SzpZk65GS0NCAqMhFT8WSvgSgNhO/F+xag=="
-  "resolved" "https://registry.npmjs.org/rn-color-matrices/-/rn-color-matrices-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "clamp" "^1.0.1"
 
 "run-parallel@^1.1.9":
   "integrity" "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA=="
@@ -6759,11 +6731,6 @@
   "integrity" "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw=="
   "resolved" "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
   "version" "0.0.3"
-
-"ts-tiny-invariant@^2.0.4":
-  "integrity" "sha512-6AIQGf3rbMyci4fZU5aq5AUJN2O3sMPPY+R8waCguQOPRJDh0n/vmxVISCp72TJr4k5kikaU1yqX8bTwfTFjcQ=="
-  "resolved" "https://registry.npmjs.org/ts-tiny-invariant/-/ts-tiny-invariant-2.0.4.tgz"
-  "version" "2.0.4"
 
 "tslib@^1.8.1":
   "integrity" "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
