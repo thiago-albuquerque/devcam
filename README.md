@@ -1,7 +1,7 @@
 # DevCam
 
 DevCam é um projeto MOBILE onde o usuário captura suas fotos, salva na galeria e posteriormente busca essa mesma foto.
-##Foram aplicados:
+### Foram aplicados:
 - Controle de flash
 - Controle de câmeras {frontal && Traseira}
 
