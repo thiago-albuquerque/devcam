@@ -4,7 +4,7 @@ export const Container = styled.SafeAreaView`
   flex: 1;
 `;
 export const CaptureButtonContainer = styled.View`
-  height: 45%;
+  height: 250px;
   align-items: center;
   justify-content: space-between;
   margin: 0 0 24px 0;
@@ -17,18 +17,18 @@ export const CaptureButton = styled.TouchableOpacity`
 export const ModalCaptureContainer = styled.View`
   flex: 1;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: #333;
   padding: 16px;
 `;
 export const ImageCaptured = styled.Image`
-  width: 330px;
-  height: 470px;
+  width: 100%;
+  height: 90%;
   border-radius: 16px;
   margin: 0 0 16px 0;
 `;
 export const ModalButtonsContainer = styled.View`
-  width: 100%;
+  width: 330px;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -41,13 +41,13 @@ export const ModalButton = styled.TouchableOpacity`
 export const ModalGalleryContainer = styled.View`
   flex: 1;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: #333;
   padding: 16px;
 `;
 export const GalleryImage = styled.Image`
-  width: 330px;
-  height: 470px;
+  width: 100%;
+  height: 90%;
   border-radius: 16px;
   margin: 0 0 16px 0;
 `;

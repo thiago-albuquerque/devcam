@@ -158,10 +158,7 @@ export default function Camera() {
             transparent={true}
             animationType={'slide'}>
             <ModalCaptureContainer>
-              <ImageCaptured
-                resizeMode="contain"
-                source={{uri: capturedPhoto}}
-              />
+              <ImageCaptured resizeMode="cover" source={{uri: capturedPhoto}} />
 
               <ModalButtonsContainer>
                 <ModalButton onPress={() => setOpenCaptureModal(false)}>
@@ -179,7 +176,7 @@ export default function Camera() {
             transparent={true}
             animationType={'slide'}>
             <ModalGalleryContainer>
-              <GalleryImage source={{uri: capturedPhoto}} />
+              <GalleryImage resizeMode="cover" source={{uri: capturedPhoto}} />
 
               <ModalButtonsContainer>
                 <ModalButton onPress={() => setOpenGalleryModal(false)}>

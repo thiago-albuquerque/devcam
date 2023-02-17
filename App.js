@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, StatusBar} from 'react-native';
+import {StatusBar} from 'react-native';
 import Camera from './src/pages/camera';
 
 export default function App() {
   return (
     <>
-      <StatusBar hidden={false} />
+      <StatusBar backgroundColor={'#333'} />
       <Camera />
     </>
   );
